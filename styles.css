@@ -1,0 +1,162 @@
+html, body {
+    background-color: black;
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    text-align: center;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    justify-content: space-between; 
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    display: inline block;
+
+}
+
+header img {
+    height: 50px;
+    margin: 10px;
+}
+
+nav {
+    width: 25%;
+    text-align: right;
+    display: inline-flex;
+    align-self: flex-end;
+    justify-content: space-between;
+}
+
+nav p {
+    display: inline block;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* MAIN IMAGE AND 'OUR MISSION' */
+
+.background {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    width: 1200px;
+    background-image:url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg)
+
+}
+
+.banner {
+    display: inline-flex;
+    text-align: center;
+    flex-direction: column;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+}
+
+.banner h2, .banner h4 {
+    width: 100%;
+    margin: 10px;
+}
+
+/* TEAS OF THE MONTH */
+
+.teaOfMonthBanner {
+    width: 1000px;
+    height: 175px;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.teaOfMonthBanner h2 {
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+.teaOfMonthBanner h4 {
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+.teaOfMonthImg {
+    width: 70%;
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.teaOfMonthImg img {
+    height: 200px;
+    width: 300px;
+    margin: 15px;
+}
+.teaOfMonthImg p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* LOCATIONS */
+
+.locationsImg {
+    height: 550px;
+    width: 1200px;
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.locations {
+    height: 300px;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.downtown, .eastBayside, .oakdale {
+    height: 300px;
+    width: 300px;
+    background-color: black;
+    margin: 20px;
+    opacity: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+/* FOOTER */
+
+footer {
+    height: 275px;
+}
+
+.contact {
+    display: inline-flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.contact h2 {
+    margin-bottom: 30px;
+}
+
+.contact h5 {
+    margin: 20px;
+}
+
+.copyright {
+    height: 25px;
+    text-align: left;
+    margin: 20px;
+}
